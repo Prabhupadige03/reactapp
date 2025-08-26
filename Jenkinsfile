@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         BRANCH_NAME = 'main'
-        REPO_URL = 'https://github.com/gani6992/React_helloworld.git'
-        TARGET_HOST = 'ubuntu@44.222.211.46'
-        TARGET_DIR = '/home/ubuntu/react-deploy'
+        REPO_URL = 'https://github.com/Prabhupadige03/reactapp.git'
+        TARGET_HOST = 'root@13.60.180.229'
+        TARGET_DIR = '/var/www/html/my-react-app'
     }
 
     stages {
